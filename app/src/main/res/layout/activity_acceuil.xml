@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral70"
+    android:orientation="vertical"
+    tools:context=".Acceuil">
+
+    <TextView
+        android:id="@+id/tv_acceuil_acceuil"
+        style="@style/title_true_one"
+        android:text="Acceuil" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_add_acceuil"
+            style="@style/button"
+            android:text="Add"
+            app:rippleColor="@color/purple_200"
+            app:strokeColor="@color/purple_200" />
+
+        <Button
+            android:id="@+id/bt_edit_acceuil"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:text="Edit" />
+    </LinearLayout>
+</LinearLayout>
